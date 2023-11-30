@@ -1,0 +1,16 @@
+#our_input = input()
+# your_input.split("+")
+
+# y.sort()
+# print("+".join(y))
+x= input()
+x=int(x)
+ans=[]
+for i in range(x):
+     y=input()
+     ans.append(y) 
+for i in range(x):
+    if int(len(x[i])<=10):
+        print(x[i])
+    else:
+        print(x[:1]+int(len(x)-2)+x[int(len(x)-1):])
